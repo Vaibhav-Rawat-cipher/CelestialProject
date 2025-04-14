@@ -1,0 +1,236 @@
+        body{
+            text-align: center;
+            justify-content: center;
+            /* background-color: #4c6d7359; */
+            background-color:linear-gradient(to bottom, #003973, #E5E5BE);
+            
+        }
+
+        #title{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:30px;
+            -webkit-text-fill-color: transparent;
+            background: linear-gradient(90deg, #ff0500, #ef155e, #7e57c2, #2196f3, #26c6da, #43a047, #abb826, #ffa513, #ff5722);
+            background-clip:text;
+            margin-bottom: .5rem;
+            margin-top: 10px;
+
+        }
+
+
+        /* styling all types of buttons */
+        /* #SUB1{
+
+            display:flex;
+            padding: 10px 20px;
+            margin-left: 31%;
+            margin-top:0.5cm;
+            margin-bottom:0.2cm;
+            background-color: #ff0500;
+            border: 3px solid #030201;
+        } */
+
+        #SUB1 {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 35%;
+            margin-top: 5px;
+            margin-bottom:8px;
+            padding: 10px 20px;
+            background-color: #ff0500;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        #SUB1::before {
+            content: "";
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            background: conic-gradient(
+                #ff0000,
+                #ff7300,
+                #ffeb00,
+                #47ff00,
+                #00ffee,
+                #2b65ff,
+                #8000ff,
+                #ff0000
+            );
+            z-index: -1;
+            animation: rotateBorder 2s linear infinite;
+            border-radius: 8px;
+        }
+
+        #SUB1::after {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            right: 3px;
+            bottom: 3px;
+            background-color: #ff0500;
+            z-index: -1;
+            border-radius: 4px;
+        }
+
+        @keyframes rotateBorder {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(255deg); }
+        }
+
+        
+        #ACCESS_SUB1{
+            
+            display:flex;
+            margin-left: 40px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 10px 20px;
+            background-color: #c6add4;
+            border: 3px solid #030201;
+
+        }
+
+        #ACCESS_FAD{
+
+            display:flex;
+            margin-top:3px;
+            margin-left: 110px;
+            margin-right: 110px;
+            margin-bottom: 2px;
+            padding: 10px 20px;
+            background-color: #cebcd9;
+            border: 3px solid #030201;
+
+        }
+
+        #C_F1{
+            display:flex;
+            padding: 10px 20px;
+            margin-left: 31%;
+            margin-top:0.5cm;
+            margin-bottom:0.2cm;
+            background-color: #7999e0;
+            border: 3px solid #030201;
+        }
+
+        #C_D1{
+            display:flex;
+            padding: 10px 20px;
+            margin-left: 31%;
+            margin-top:0.5cm;
+            margin-bottom:0.2cm;
+            background-color: #7999e0;
+            border: 3px solid #030201;
+        }
+
+        #C_E1{
+            display:flex;
+            padding: 10px 20px;
+            margin-left: 34%;
+            margin-top:0.5cm;
+            margin-bottom:0.2cm;
+            background-color: #719af0;
+            border: 3px solid #030201;
+        }
+
+        /* styling all types of small div */
+
+        #SUB{
+            color:rgb(10, 10, 10);
+            background-color: rgb(94, 211, 211);
+            font-size: large;
+            margin: 5%;
+           
+            border:4px solid #ef155e;
+            height: 20%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+        #Access-CHECKER{
+           
+            color:rgb(10, 10, 10);
+            background-color: rgb(94, 211, 211);
+            font-size: large;
+            margin: 5%;
+          
+            border:4px solid #ef155e;
+            height: 20%;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+        #FAD{
+            
+            color:rgb(10, 10, 10);
+            background-color: rgb(94, 211, 211);
+            font-size: large;
+            margin: 5%;
+       
+            border:4px solid #ef155e;
+            height: 20%;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #Check_Fees{
+            
+            color:rgb(10, 10, 10);
+            background-color: rgb(94, 211, 211);
+            font-size: large;
+            margin: 5%;
+         
+            border:4px solid #ef155e;
+            height: 20%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #Check_Duration{
+            
+            color:rgb(10, 10, 10);
+            background-color: rgb(94, 211, 211);
+            font-size: large;
+            margin: 5%;
+          
+            border:4px solid #ef155e;
+            height: 20%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+        #Check_Expiry{
+            
+            color:rgb(10, 10, 10);
+            background-color: rgb(94, 211, 211);
+            font-size: large;
+            margin: 5%;
+           
+            border:4px solid #ef155e;
+            height: 20%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+        /* styling the main div */
+
+        .ACCESS_CONTROLS1{
+            display: flex;
+            
+            height:80%;
+            width:100%;
+        }  
+
+        .ACCESS_CONTROL2{
+            display: flex;
+          
+            height:80%;
+            width:100%;
+        }  
+        
+    
+ 
