@@ -237,7 +237,7 @@ async function updateFeeAndDuration() {
         alert("Fee and duration updated!");
     } catch (err) {
         console.error(err);
-        alert("Update failed (are you the owner?)");
+        alert("Update failed (You are not the owner)");
     }
 }
 
